@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Views Updates</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Oswald, sans-serif;
+            background-color: #8aaae6;
+            padding: 45px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #a1d8e2;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .metrics {
+            margin-top: 20px;
+        }
+        .metric-item {
+            margin-bottom: 15px;
+        }
+        .goal {
+            font-weight: bold;
+        }
+        .increase {
+            color: #28a745; /* Green color for increase */
+        }
+        .decrease {
+            color: #dc3545; /* Red color for decrease */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>YOUTUBE LIVE VIEW COUNT</h1>
+        <p>Enter a YouTube video ID below :</p>
+        <input type="text" id="videoIdInput" placeholder="Enter YouTube Video ID">
+        <div class="metrics">
+            <div id="videoTitle" class="metric-item"></div>
+            <div id="viewCount" class="metric-item"></div>
+            <div id="likeCount" class="metric-item"></div>
+            <div id="commentCount" class="metric-item"></div>
+            <div id="viewGoal" class="metric-item goal"></div>
+            <div id="likeGoal" class="metric-item goal"></div>
+            <div id="commentGoal" class="metric-item goal"></div>
+        </div>
+    </div>
+
+    <!-- Your script.js goes here -->
+    <script src="script.js"></script>
+</body>
+</html>

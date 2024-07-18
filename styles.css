@@ -1,0 +1,9 @@
+/* styles.css */
+
+/* Styling for view and like counts */
+#viewCount, #likeCount {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #13adb3;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
